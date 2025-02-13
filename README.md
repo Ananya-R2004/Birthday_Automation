@@ -1,6 +1,7 @@
 # 🎉 Birthday Automation Project
 
-## [Space for Logo]
+![image](https://github.com/user-attachments/assets/ef3e60f4-0890-4aba-ba08-aaea899495a4)
+
 
 ## 🚀 Overview
 
