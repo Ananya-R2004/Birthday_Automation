@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd #importing required lib
 import datetime
 import smtplib
 import os
@@ -6,8 +6,8 @@ os.chdir(r"C:\Users\ananya\Pictures\Birthday Emails")
 # os.mkdir("testing") 
 
 # Enter your authentication details
-GMAIL_ID = 'ananyarajesh2112@gmail.com'
-GMAIL_PSWD = 'ydre uuqv ttup zszk'
+GMAIL_ID = ' '
+GMAIL_PSWD = ' '
 
 def sendEmail(to, sub, msg):
     print(f"Email to {to} sent with subject: {sub} and message {msg}" )
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # sendEmail(GMAIL_ID, "subject", "test message")
     # exit()
 
-    df = pd.read_excel("New Microsoft Excel Worksheet.xlsx")
+    df = pd.read_excel("New Microsoft Excel Worksheet.xlsx")  
     # print(df)
     today = datetime.datetime.now().strftime("%d-%m")
     yearNow = datetime.datetime.now().strftime("%Y")
